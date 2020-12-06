@@ -13,5 +13,5 @@ WORKDIR /web
 # Install app dependencies
 RUN npm install
 
-EXPOSE  8080
+EXPOSE  8085
 ENTRYPOINT ["nodejs", "./index.js"]
